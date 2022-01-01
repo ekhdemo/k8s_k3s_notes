@@ -3,9 +3,7 @@
 For a typical cloud-native application with a 3-tier architecture, the diagram below illustrates how it might be described in terms of Kubernetes objects. In this example, each tier consists of a Deployment and Service object, and may additionally define ConfigMap or Secret objects. Each of these objects are typically defined in separate YAML files, and are fed into the kubectl command line tool.
 
 ```
-![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
-
-![three-tier-kubernetes-architecture](/Users/fatih/Desktop/helm-example/three-tier-kubernetes-architecture.png "Three Tier Kubernetes Architecture")
+![three-tier-kubernetes-architecture](https://github.com/ekhdemo/k8s_k3s_notes/blob/main/helm-notes/three-tier-kubernetes-architecture.png "Three Tier Kubernetes Architecture")
 ```
 
 ### Step 1: Generate your first chart
@@ -321,7 +319,7 @@ NOTES:
 The output of helm install displays a handy summary of the state of the release, what objects were created, and the rendered NOTES.txt file to explain what to do next. Run the commands in the output to get a URL to access the NGINX service and pull it up in your browser.
 
 ```
-![Nginx Welcome Page](./nginx-server.png "Nginx Welcome Page")
+![Nginx Welcome Page](https://raw.githubusercontent.com/ekhdemo/k8s_k3s_notes/main/helm-notes/nginx-server.png "Nginx Welcome Page")
 ```
 
 If all went well, you should see the NGINX welcome page as shown above. Congratulations! You've just deployed your very first service packaged as a Helm chart!
