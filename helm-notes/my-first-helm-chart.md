@@ -3,7 +3,7 @@
 For a typical cloud-native application with a 3-tier architecture, the diagram below illustrates how it might be described in terms of Kubernetes objects. In this example, each tier consists of a Deployment and Service object, and may additionally define ConfigMap or Secret objects. Each of these objects are typically defined in separate YAML files, and are fed into the kubectl command line tool.
 
 ```
-![three-tier-kubernetes-architecture](https://github.com/ekhdemo/k8s_k3s_notes/blob/main/helm-notes/three-tier-kubernetes-architecture.png?raw=true "Three Tier Kubernetes Architecture")
+![three-tier-kubernetes-architecture](https://github.com/ekhdemo/k8s_k3s_notes/blob/main/helm-notes/three-tier-kubernetes-architecture.png?raw=true)
 ```
 
 ### Step 1: Generate your first chart
