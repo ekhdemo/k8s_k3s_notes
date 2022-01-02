@@ -1,3 +1,4 @@
+```
 # Copyright 2019 Google Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,7 +12,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+```
 
+```
 alias k='kubectl'
 alias ksys='kubectl --namespace=kube-system'
 alias ka='kubectl apply --recursive -f'
@@ -802,6 +805,7 @@ alias kgdepwowidesln='kubectl get deployment --watch -o=wide --show-labels --nam
 alias kgwslowiden='kubectl get --watch --show-labels -o=wide --namespace'
 alias kgpowslowiden='kubectl get pods --watch --show-labels -o=wide --namespace'
 alias kgdepwslowiden='kubectl get deployment --watch --show-labels -o=wide --namespace'
+<<<<<<< HEAD
 
 
 ---
@@ -809,3 +813,6 @@ alias kgdepwslowiden='kubectl get deployment --watch --show-labels -o=wide --nam
 **Credit:**
 
 - [Github Link](https://github.com/ahmetb/kubectl-aliases/blob/master/.kubectl_aliases)
+=======
+```
+>>>>>>> c88d758a1553ccf6274a290eed7fbb545278997c
